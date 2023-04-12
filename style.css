@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Chakra+Petch:wght@300&display=swap');
 * {
    margin:0;
    padding:0; 
@@ -18,21 +19,21 @@ a:hover{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: Arial, Helvetica, sans-serif;;
+    font-family: 'Alegreya', serif, sans-serif;
 }
 
 .parte {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family: Arial, Helvetica, sans-serif;; 
+    font-family: 'Alegreya', serif, sans-serif; 
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Alegreya', serif, sans-serif;
     background: #23232e;
     height: 8vh;
 }
@@ -122,12 +123,17 @@ transform: rotate(45deg) translate(-5px, -7px);
 }
 
 .sobre{
-    background-color: #9e642da9;
+    background-color: #90b2d3a9;
     text-indent: 15px;
     padding: 10px;
 }
 
 .titulo{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Alegreya', serif, sans-serif;
+    font-size: 45px;
+}
+
+.paragrafo{
+    font-family: 'Alegreya', serif, sans-serif;
 }
