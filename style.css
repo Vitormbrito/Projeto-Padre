@@ -11,6 +11,7 @@ a{
 
 a:hover{
  opacity: 0.7;
+ color: orange;
 }
 
 .logo {
@@ -40,6 +41,7 @@ main{
     background: url(livros2.jpg) no-repeat center center;
     background-size: cover;
     height: 92vh;
+   
     
 }
 
@@ -119,3 +121,13 @@ transform: rotate(-45deg) translate(-8px, 8px);
 transform: rotate(45deg) translate(-5px, -7px);
 }
 
+.sobre{
+    background-color: #9e642da9;
+    text-indent: 15px;
+    padding: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
